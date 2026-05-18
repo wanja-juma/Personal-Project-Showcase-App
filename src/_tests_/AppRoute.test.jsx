@@ -18,6 +18,7 @@ test("Navbar links are present and routes render", () => {
 
   expect(screen.getByText("Home")).toBeInTheDocument()
   expect(screen.getByText("Dashboard")).toBeInTheDocument()
-  expect(screen.getByText("Products")).toBeInTheDocument()
-  expect(screen.getByText("Add Product")).toBeInTheDocument()
+  expect(screen.getByText("Shop")).toBeInTheDocument()
+  // Check for the add-product link by its href attribute
+  expect(screen.getByRole("link", { name: "Admin Portal" })).toHaveAttribute("href", "/add-product")
 })
