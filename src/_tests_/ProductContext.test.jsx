@@ -1,9 +1,9 @@
 
 import { render, screen } from "@testing-library/react"
-import { ProductContext, useProducts } from "../context/ProductContext"
+import { ProductContext, useProducts } from "./context/ProductContext"
 import {test, expect,} from "vitest"
 
-function TestComp() {
+export function TestComp() {
   const products = useProducts()
   return <div>Count: {products.length}</div>
 }

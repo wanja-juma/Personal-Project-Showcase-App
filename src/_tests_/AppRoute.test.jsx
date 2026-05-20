@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react"
 import { MemoryRouter } from "react-router-dom"
 import AppRoutes from "../Routes/AppRoutes"
 import Navbar from "../components/NavBar"
-import { ProductContext } from "../context/ProductContext"
+import { ProductContext } from "./context/ProductContext"
 import { test, expect,} from "vitest"
 
 test("Navbar links are present and routes render", () => {

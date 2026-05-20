@@ -6,7 +6,7 @@ import {
   useRemoveProduct,
   useProductLoading,
  
-} from "../context/ProductContext"
+} from "./context/ProductContext"
 
 import ProductCard from "../components/ProductCard"
 import ProductSearch from "../components/ProductSearch"

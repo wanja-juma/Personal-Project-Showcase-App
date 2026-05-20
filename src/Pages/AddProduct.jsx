@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react"
 
 import { useNavigate } from "react-router-dom"
 
-import { useCreateProduct, useProductError } from "../context/ProductContext"
+import { useCreateProduct, useProductError } from "./context/ProductContext"
 
 function AddProduct() {
   const createProduct = useCreateProduct()
