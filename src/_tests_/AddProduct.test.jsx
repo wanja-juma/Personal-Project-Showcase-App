@@ -2,7 +2,7 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react"
 import { MemoryRouter } from "react-router-dom"
 import AddProduct from "../Pages/AddProduct"
-import { ProductContext } from "../context/ProductContext"
+import { ProductContext } from "./context/ProductContext"
 import { vi, test, expect,} from "vitest"
 
 vi.mock("react-router-dom", async () => {

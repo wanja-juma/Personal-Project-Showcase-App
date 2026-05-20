@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom"
-import { useProducts, useEditProduct } from "../context/ProductContext"
+import { useProducts, useEditProduct } from "./context/ProductContext"
 import { useState } from "react"
 
 function ProductDetails() {
