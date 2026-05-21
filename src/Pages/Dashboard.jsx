@@ -1,4 +1,4 @@
-import { useProducts, useProductLoading } from "./context/ProductContext"
+import { useProducts, useProductLoading } from "../context/ProductContext"
 
 function Dashboard() {
   const products = useProducts()
