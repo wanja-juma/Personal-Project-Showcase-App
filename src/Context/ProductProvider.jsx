@@ -6,7 +6,7 @@ import {
   updateProduct,
   replaceProduct,
   deleteProduct
-} from "../services/api"
+} from "../Services/api"
 import { ProductContext } from "./ProductContext"
 
 function ProductProvider({ children }) {
