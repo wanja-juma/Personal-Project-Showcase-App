@@ -1,5 +1,5 @@
 import { vi, test, expect, describe } from "vitest"
-import { addProduct, updateProduct } from "./Services/api"
+import { addProduct, updateProduct } from "../Services/api"
 
 describe("api layer", () => {
   test("addProduct posts and returns created product", async () => {

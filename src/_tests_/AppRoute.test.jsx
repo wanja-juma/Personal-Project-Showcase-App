@@ -2,15 +2,15 @@
 import { render, screen } from "@testing-library/react"
 import { MemoryRouter } from "react-router-dom"
 import AppRoutes from "../Routes/AppRoutes"
-import Navbar from "../components/NavBar"
-import { ProductContext } from "./context/ProductContext"
+import NavigationBar from "../components/NavigationBar"
+import { ProductContext } from "../Context/ProductContext"
 import { test, expect,} from "vitest"
 
-test("Navbar links are present and routes render", () => {
+test("NavigationBar links are present and routes render", () => {
   render(
     <ProductContext.Provider value={{ products: [] }}>
       <MemoryRouter initialEntries={["/"]}>
-        <Navbar />
+        <NavigationBar />
         <AppRoutes />
       </MemoryRouter>
     </ProductContext.Provider>

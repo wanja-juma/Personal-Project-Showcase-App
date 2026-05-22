@@ -1,6 +1,6 @@
 
 import { render, screen } from "@testing-library/react"
-import { ProductContext, useProducts } from "./context/ProductContext"
+import { ProductContext, useProducts } from "../Context/ProductContext"
 import {test, expect,} from "vitest"
 
 export function TestComp() {

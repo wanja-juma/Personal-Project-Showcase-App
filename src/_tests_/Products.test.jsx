@@ -2,7 +2,7 @@
 import { render, screen, fireEvent } from "@testing-library/react"
 import { MemoryRouter } from "react-router-dom"
 import Products from "../Pages/Products"
-import { ProductContext } from "./context/ProductContext"
+import { ProductContext } from "../Context/ProductContext"
 import { vi, test, expect,} from "vitest"
 
 test("Products lists items and calls removeProduct", () => {
