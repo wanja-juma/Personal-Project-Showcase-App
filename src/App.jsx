@@ -1,11 +1,11 @@
 import { BrowserRouter } from "react-router-dom"
-import NavBar from "./components/Navigationbar"
+import NavigationBar from "./components/NavigationBar"
 import AppRoutes from "./Routes/AppRoutes"
 
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
+      <NavigationBar />
       <AppRoutes />
     </BrowserRouter>
   )
